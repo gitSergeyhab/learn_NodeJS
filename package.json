@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-learn",
+  "version": "1.0.0",
+  "description": "learn NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "keywords": [
+    "js",
+    "nodejs"
+  ],
+  "author": "Sergey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
